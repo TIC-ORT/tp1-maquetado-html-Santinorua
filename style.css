@@ -1,8 +1,8 @@
 :root{
     --bbg-color: rgb(236, 236, 236);
     --white-color: rgb(255, 255, 255);
-    --gris: rgb(150, 150, 150);
-    --higlight: rgb(211, 161, 86);
+    --gris: rgb(196, 196, 196);
+    --higlight: rgb(255, 193, 100);
     --mg-color:rgb(97, 97, 97);
     --header-color: rgb(59, 59, 59);
 }
@@ -46,20 +46,32 @@ nav{
 
 aside{
     background-color: var(--gris);
-    width: 30%;
+    width: 27.5%;
     height: 75%;
 }
 
-main main{
+main > main{
+    width: 72.5%;
+    height: 75%;
     display: flex;
+    justify-content: flex-start;
+    gap: 5%;
     flex-wrap: wrap;
+    padding: 5%;
+    padding-right: 2%;
 }
 
 article{
-    width: 10%;
-    height: 10%;
+    width: 20%;
+    height: 25%;
 }
 
 .img{
+    height: 75%;
     background-color: var(--gris);
+    
+}
+
+.high{
+    background-color: var(--higlight);
 }
