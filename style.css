@@ -4,6 +4,7 @@
     --gris: rgb(196, 196, 196);
     --higlight: rgb(255, 193, 100);
     --mg-color:rgb(97, 97, 97);
+    --blackText: rgb(44, 44, 44);
     --header-color: rgb(59, 59, 59);
 }
 
@@ -11,6 +12,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -28,6 +30,32 @@ header{
     height: 10%;
     width: 100%;
     background-color: var(--header-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    width: 50%;
+    padding: 2%;
+}
+
+h2{
+    color: var(--higlight);
+    font-weight: 800;
+}
+
+h4{
+    color: var(--white-color);
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.categories{
+    width: 50%;
+    height: 40%;
+    align-self: flex-end;
+    display: flex;
+    justify-content:  space-evenly;
 }
 
 .container{
@@ -63,13 +91,25 @@ main > main{
 
 article{
     width: 20%;
-    height: 25%;
+    height: 25%;   
+}
+
+h5{
+    font-weight: 700;
+    color: var(--blackText);
+    font-size: 0.8rem
+}
+
+p{
+    font-weight: 400;
+    color: var(--blackText);
+    font-size: 0.8rem;
 }
 
 .img{
     height: 75%;
     background-color: var(--gris);
-    
+    margin-bottom: 0.3rem;
 }
 
 .high{
