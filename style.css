@@ -36,7 +36,7 @@ header{
 
 .title{
     width: 50%;
-    padding: 2% 0% 0% 3%;
+    padding: 1% 0% 0% 3%;
 }
 
 h2{
@@ -159,10 +159,12 @@ aside > article{
     display: flex;
     justify-content: center;
     align-items: center;
-    p{
-        font-size: 1rem;
-        width: 75%;
-    }
+    
+}
+
+aside > article > p{
+    font-size: 1rem;
+    width: 75%;
 }
 
 .last{
@@ -170,8 +172,10 @@ aside > article{
     display: flex;
     justify-content: center;
     align-items: center;
-    p{
-        width: 75%;
-        font-size: 1rem;
-    }
+    
+}
+
+aside > .last > p{
+    width: 75%;
+    font-size: 1rem;
 }
